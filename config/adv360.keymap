@@ -48,11 +48,11 @@
 
         sym_num_layer {
             bindings = <
-&none  &none      &none     &none      &none      &none   &tog 0                                            &none       &none            &kp KP_NUMBER_0  &kp KP_COMMA     &kp KP_DOT       &none            &none
-&none  &kp TILDE  &kp AMPS  &kp STAR   &kp LT     &kp GT  &none                                             &none       &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_EQUAL     &none
-&none  &kp PIPE   &kp DLLR  &kp PRCNT  &kp CARET  &none   &none   &none  &none      &none  &none            &none       &kp KP_MULTIPLY  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &none
-&none  &kp GRAVE  &kp EXCL  &kp AT     &kp HASH   &none                  &none      &none                               &kp KP_DIVIDE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_SUBTRACT  &none
-&none  &none      &none     &none      &none              &none   &none  &none      &none  &kp KP_NUMBER_0  &kp KP_DOT                   &none            &none            &none            &none            &none
+&none  &none      &none     &none      &none      &none   &tog 0                                   &none    &none      &kp N0        &kp COMMA  &kp DOT  &none      &none
+&none  &kp TILDE  &kp AMPS  &kp STAR   &kp LT     &kp GT  &none                                    &none    &none      &kp N7        &kp N8     &kp N9   &kp EQUAL  &none
+&none  &kp PIPE   &kp DLLR  &kp PRCNT  &kp CARET  &none   &none   &none  &none      &none  &none   &none    &kp STAR   &kp NUMBER_4  &kp N5     &kp N6   &kp PLUS   &none
+&none  &kp GRAVE  &kp EXCL  &kp AT     &kp HASH   &none                  &none      &none                   &kp SLASH  &kp N1        &kp N2     &kp N3   &kp MINUS  &none
+&none  &none      &none     &none      &none              &none   &none  &none      &none  &kp N0  &kp DOT             &none         &none      &none    &none      &none
             >;
         };
 
