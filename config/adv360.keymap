@@ -28,6 +28,24 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        space_tab: space_tab {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SPACE_TAB";
+            bindings = <&kp SPACE>, <&kp TAB>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        bspc_del: bspc_del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BSPC_DEL";
+            bindings = <&kp BSPC>, <&kp DEL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     macros {
@@ -38,11 +56,11 @@
 
         home_layer {
             bindings = <
-&lt 3 ESC  &kp TILDE  &kp LBKT  &kp LBRC  &kp LPAR  &kp PERCENT  &none                                              &none     &kp CARET  &kp RPAR  &kp RBRC   &kp RBKT  &kp DLLR  &kp BSPC
-&kp TAB    &kp Q      &kp W     &kp F     &kp P     &kp B        &none                                              &none     &kp J      &kp L     &kp U      &kp Y     &kp SQT   &kp BSLH
-&kp LCTRL  &kp A      &kp R     &kp S     &kp T     &kp G        &none      &none      &none      &none  &none      &none     &kp M      &kp N     &kp E      &kp I     &kp O     &kp RET
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp D     &kp V                              &none      &none                       &kp K      &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&none      &none      &none     &none     &none                  &kp SPACE  &lt 1 ESC  &none      &none  &lt 2 RET  &kp BSPC             &none     &none      &none     &none     &none
+&lt 3 ESC  &kp TILDE  &kp LBKT  &kp LBRC  &kp LPAR  &kp PERCENT  &none                                               &none      &kp CARET  &kp RPAR  &kp RBRC   &kp RBKT  &kp DLLR  &kp BSPC
+&kp TAB    &kp Q      &kp W     &kp F     &kp P     &kp B        &none                                               &none      &kp J      &kp L     &kp U      &kp Y     &kp SQT   &kp BSLH
+&kp LCTRL  &kp A      &kp R     &kp S     &kp T     &kp G        &none       &none      &none      &none  &none      &none      &kp M      &kp N     &kp E      &kp I     &kp O     &kp RET
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp D     &kp V                               &none      &none                        &kp K      &kp H     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&none      &none      &none     &none     &none                  &space_tab  &lt 1 RET  &none      &none  &lt 2 ESC  &bspc_del             &none     &none      &none     &none     &none
             >;
         };
 
