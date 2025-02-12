@@ -150,7 +150,7 @@
 &kp TAB    &kp Q   &kp W   &kp F   &kp P   &kp B   &none                                               &none      &kp J   &kp L   &kp U      &kp Y    &kp SQT   &kp SEMICOLON
 &kp LCTRL  &kp A   &kp R   &kp S   &kp T   &kp G   &none       &none      &none      &none  &none      &none      &kp M   &kp N   &kp E      &kp I    &kp O     &kp RET
 &kp LSHFT  &kp Z   &kp X   &kp C   &kp D   &kp V                          &none      &none                        &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-&none      &none   &none   &none   &none           &space_tab  &lt 1 RET  &none      &none  &lt 2 ESC  &bspc_del          &none   &none      &none    &none     &none
+&none      &none   &none   &none   &none           &space_tab  &lt 1 ESC  &none      &none  &lt 2 RET  &bspc_del          &none   &none      &none    &none     &none
             >;
         };
 
