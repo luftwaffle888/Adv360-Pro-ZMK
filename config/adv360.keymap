@@ -156,11 +156,11 @@
 
         sym_num_layer {
             bindings = <
-&none      &none           &none     &none      &none      &none      &tog 0                                       &none   &kp FSLH   &none         &none   &none   &none       &none
-&none      &kp TILDE       &kp AMPS  &kp STAR   &kp LT     &kp GT     &none                                        &none   &kp STAR   &kp N7        &kp N8  &kp N9  &kp COMMA   &none
-&none      &kp MINUS       &kp DLLR  &kp PRCNT  &kp CARET  &kp GRAVE  &none   &none  &none      &none  &none       &none   &kp PLUS   &kp NUMBER_4  &kp N5  &kp N6  &kp PERIOD  &none
-&kp LSHFT  &kp UNDERSCORE  &kp EXCL  &kp AT     &kp HASH   &kp PIPE                  &none      &none                      &kp MINUS  &kp N1        &kp N2  &kp N3  &kp EQUAL   &kp RSHFT
-&none      &none           &none     &none      &none                 &none   &none  &none      &none  &kp PERIOD  &kp N0             &none         &none   &none   &none       &none
+&none      &none           &none     &none      &none      &none      &tog 0                                       &none     &none         &none         &none   &none   &kp FSLH   &none
+&none      &kp UNDERSCORE  &kp AMPS  &kp STAR   &kp PIPE   &kp GRAVE  &none                                        &none     &kp DOT       &kp N7        &kp N8  &kp N9  &kp ASTRK  &none
+&none      &kp MINUS       &kp DLLR  &kp PRCNT  &kp CARET  &kp TILDE  &none      &none  &none      &none  &none    &none     &kp EQUAL     &kp NUMBER_4  &kp N5  &kp N6  &kp MINUS  &none
+&kp LSHFT  &kp BACKSLASH   &kp EXCL  &kp AT     &kp HASH   &kp SLASH                    &none      &none                     &kp NUMBER_0  &kp N1        &kp N2  &kp N3  &kp PLUS   &kp RSHFT
+&none      &none           &none     &none      &none                 &kp SPACE  &none  &none      &none  &kp RET  &kp BSPC                &none         &none   &none   &none      &none
             >;
         };
 
