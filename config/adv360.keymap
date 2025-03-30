@@ -92,10 +92,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        num_6_equl: num_6_equl {
+        num_6_caret: num_6_caret {
             compatible = "zmk,behavior-mod-morph";
-            label = "NUM_6_EQUL";
-            bindings = <&kp EQUAL>, <&kp NUMBER_6>;
+            label = "NUM_6_CARET";
+            bindings = <&kp CARET>, <&kp NUMBER_6>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -128,10 +128,10 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        num_0_star: num_0_star {
+        num_0_dollar: num_0_dollar {
             compatible = "zmk,behavior-mod-morph";
-            label = "NUM_0_STAR";
-            bindings = <&kp STAR>, <&kp NUMBER_0>;
+            label = "NUM_0_DOLLAR";
+            bindings = <&kp DOLLAR>, <&kp NUMBER_0>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -146,11 +146,11 @@
 
         home_layer {
             bindings = <
-&lt 3 ESC  &num_1_plus  &num_2_lbrkt  &num_3_lbrce  &num_4_lpren  &num_5_amps  &none                                               &none      &num_6_equl  &num_7_rpren  &num_8_rbrce  &num_9_rbrkt  &num_0_star  &kp BSPC
-&kp TAB    &kp Q        &kp W         &kp F         &kp P         &kp B        &none                                               &none      &kp J        &kp L         &kp U         &kp Y         &kp SQT      &kp SEMICOLON
-&kp LCTRL  &kp A        &kp R         &kp S         &kp T         &kp G        &none       &none      &none      &none  &none      &none      &kp M        &kp N         &kp E         &kp I         &kp O        &kp RET
-&kp LSHFT  &kp Z        &kp X         &kp C         &kp D         &kp V                               &none      &none                        &kp K        &kp H         &kp COMMA     &kp DOT       &kp FSLH     &kp RSHFT
-&none      &none        &none         &none         &none                      &space_tab  &lt 1 ESC  &none      &none  &lt 2 RET  &bspc_del               &none         &none         &none         &none        &none
+&lt 3 ESC  &num_1_plus  &num_2_lbrkt  &num_3_lbrce  &num_4_lpren  &num_5_amps  &none                                               &none      &num_6_caret  &num_7_rpren  &num_8_rbrce  &num_9_rbrkt  &num_0_dollar  &kp BSPC
+&kp TAB    &kp Q        &kp W         &kp F         &kp P         &kp B        &none                                               &none      &kp J         &kp L         &kp U         &kp Y         &kp SQT        &kp SEMICOLON
+&kp LCTRL  &kp A        &kp R         &kp S         &kp T         &kp G        &none       &none      &none      &none  &none      &none      &kp M         &kp N         &kp E         &kp I         &kp O          &kp RET
+&kp LSHFT  &kp Z        &kp X         &kp C         &kp D         &kp V                               &none      &none                        &kp K         &kp H         &kp COMMA     &kp DOT       &kp FSLH       &kp RSHFT
+&none      &none        &none         &none         &none                      &space_tab  &lt 2 ESC  &none      &none  &lt 1 RET  &bspc_del                &none         &none         &none         &none          &none
             >;
         };
 
@@ -166,11 +166,11 @@
 
         nav_layer {
             bindings = <
-&none  &none  &none     &none     &none      &none      &tog 0                                  &none  &none           &none           &none         &none            &none  &none
-&none  &none  &kp HOME  &kp UP    &kp END    &kp PG_UP  &none                                   &none  &none           &none           &none         &none            &none  &none
-&none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &none   &none  &none      &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
-&none  &none  &none     &none     &none      &none                     &none      &none                &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none  &none
-&none  &none  &none     &none     &none                 &none   &none  &none      &none  &none  &none                  &none           &none         &none            &none  &none
+&none  &none       &none       &none       &none       &none       &tog 0                                  &none  &none           &none           &none         &none            &none  &none
+&none  &none       &none       &none       &none       &none       &none                                   &none  &none           &none           &none         &none            &none  &none
+&none  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)  &none   &none  &none      &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
+&none  &none       &none       &none       &none       &none                      &none      &none                &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none  &none
+&none  &none       &none       &none       &none                   &none   &none  &none      &none  &none  &none                  &none           &none         &none            &none  &none
             >;
         };
 
