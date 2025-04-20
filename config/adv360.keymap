@@ -17,41 +17,6 @@
             bindings = <&kp RET>;
         };
 
-        tmux_1: tmux_1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp NUMBER_1>;
-            label = "TMUX_1";
-        };
-
-        tmux_2: tmux_2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp NUMBER_2>;
-            label = "TMUX_2";
-        };
-
-        tmux_3: tmux_3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp NUMBER_3>;
-            label = "TMUX_3";
-        };
-
-        tmux_4: tmux_4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp NUMBER_4>;
-            label = "TMUX_4";
-        };
-
-        tmux_5: tmux_5 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LC(A) &kp NUMBER_5>;
-            label = "TMUX_5";
-        };
-
         #endif
 
         hm: homerow_mods {
@@ -114,7 +79,7 @@
 &none  &none       &none       &none       &none       &none       &tog 0                                  &none  &none           &none           &none         &none            &none  &none
 &none  &none       &none       &none       &none       &none       &none                                   &none  &none           &none           &none         &none            &none  &none
 &none  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)  &none   &none  &none      &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &none
-&none  &tmux_1     &tmux_2     &tmux_3     &tmux_4     &tmux_5                    &none      &none                &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none  &none
+&none  &none       &none       &none       &none       &none                      &none      &none                &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &none  &none
 &none  &none       &none       &none       &none                   &none   &none  &none      &none  &none  &none                  &none           &none         &none            &none  &none
             >;
         };
