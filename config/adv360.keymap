@@ -56,7 +56,7 @@
 &kp TAB                     &kp Q      &kp W             &kp F           &kp P                 &kp B      &none                                                     &none      &kp J      &kp L                  &kp U            &kp Y              &kp SQT     &kp SEMICOLON
 &mt LCTRL ESCAPE            &kp A      &kp R             &kp S           &kp T                 &kp G      &none       &none         &none      &none  &none         &none      &kp M      &kp N                  &kp E            &kp I              &kp O       &caps_word
 &mt LSHFT LEFT_PARENTHESIS  &kp Z      &kp X             &kp C           &kp D                 &kp V                                &none      &none                           &kp K      &kp H                  &kp COMMA        &kp DOT            &kp FSLH    &mt RSHFT RIGHT_PARENTHESIS
-&none                       &none      &none             &none           &none                            &space_tab  &lt 2 RETURN  &none      &none  &lt 3 RETURN  &bspc_del             &none                  &none            &none              &none       &none
+&none                       &none      &none             &none           &none                            &space_tab  &lt 2 RETURN  &none      &none  &lt 1 RETURN  &bspc_del             &none                  &none            &none              &none       &none
             >;
         };
 
