@@ -59,7 +59,7 @@
 
         home_layer {
             bindings = <
-&lt 3 BACKSPACE          &none           &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE                &kp ENTER  &none                                       &none      &kp ENTER  &kp RIGHT_BRACE               &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &none            &lt 3 BACKSPACE
+&lt 3 BACKSPACE          &kp LEFT_GUI    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE                &kp ENTER  &none                                       &none      &kp ENTER  &kp RIGHT_BRACE               &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_GUI    &lt 3 BACKSPACE
 &kp TAB                  &kp Q           &kp W             &kp F                 &kp P                         &kp B      &none                                       &none      &kp J      &kp L                         &kp U                  &kp Y              &kp SQT          &kp EQUAL
 &mt LEFT_CONTROL ESCAPE  &hm LEFT_GUI A  &hm LEFT_ALT R    &hm LEFT_SHIFT S      &hm LEFT_CONTROL T            &kp G      &none       &none  &none      &none  &none  &none      &kp M      &hm LEFT_CONTROL N            &hm RIGHT_SHIFT E      &hm RIGHT_ALT I    &hm RIGHT_GUI O  &kp SEMICOLON
 &kp LEFT_SHIFT           &kp Z           &kp X             &kp C                 &hm LA(LC(LG(LEFT_SHIFT))) D  &kp V                         &none      &none                    &kp K      &hm LA(LG(LC(LEFT_SHIFT))) H  &kp COMMA              &kp DOT            &kp FSLH         &caps_word
